@@ -1,0 +1,59 @@
+/* .body-pink .header {
+  background-color: #fff;
+  border-color: #40babd;
+  padding: 10px 0;
+}
+.body-pink .brand-logo img {
+  width: 150px;
+}
+.body-pink .btn-pink {
+  background-color: #666fe8 !important;
+  border-color: #666fe8 !important;
+}
+.body-pink .header .btn-pink {
+  margin-top: 10px;
+}
+
+.body-pink .doc-header .doc-title {
+  color: #666fe8;
+}
+.body-pink .footer {
+  background-color: #04082b;
+}
+.body-pink .icon-holder {
+  top: 20px !important;
+}
+.body-pink .screenshot-holder img {
+  box-shadow: 0 2px 4px #010f1625;
+}
+
+@media (max-width: 575.98px) {
+  .body-pink .top-search-box,
+  .body-pink .brand-logo {
+    display: flex !important;
+    justify-content: center;
+  }
+  .body-pink .top-search-box {
+    margin-bottom: 10px !important;
+  }
+} */
+
+
+@import url('https://fonts.googleapis.com/css?family=Cairo:400,700&display=swap');
+
+
+html {
+  direction: rtl !important;
+}
+body {
+  text-align: right;
+  font-family: 'Cairo', sans-serif;
+}
+.body-pink .top-search-box {
+  right: unset !important;
+  left: 15px !important;
+}
+.body-pink .btn-lang { 
+  margin-left: 0;
+  margin-right: 20px;
+}
